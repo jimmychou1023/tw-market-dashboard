@@ -1,0 +1,9 @@
+{
+  // Cloudflare Workers「純靜態資產」部署設定（無 Worker 程式,只送 index.html + data/*.json）。
+  // 讓 `npx wrangler deploy` 把整個資料夾當靜態網站發佈。
+  "name": "tw-market-dashboard",
+  "compatibility_date": "2026-07-01",
+  "assets": {
+    "directory": "."
+  }
+}
