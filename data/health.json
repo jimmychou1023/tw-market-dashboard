@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-03T20:09:11",
+  "generated_at": "2026-07-04T20:09:14",
   "last_trading_day": "2026-07-03",
   "overall": "WARN",
   "checks": [
     {
       "name": "finmind_token",
       "status": "WARN",
-      "detail": "到期 2026-07-10（剩 6.8 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
+      "detail": "到期 2026-07-10（剩 5.8 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
       "expires": "2026-07-10T14:31:40",
-      "days_left": 6.8
+      "days_left": 5.8
     },
     {
       "name": "fin_statement",
@@ -58,9 +58,9 @@
     {
       "name": "foreign_holding",
       "status": "OK",
-      "detail": "最新 2026-07-02｜落後 1 交易日｜記分卡 外資持股比率",
-      "max_date": "2026-07-02",
-      "lag_td": 1
+      "detail": "最新 2026-07-03｜落後 0 交易日｜記分卡 外資持股比率",
+      "max_date": "2026-07-03",
+      "lag_td": 0
     }
   ]
 }
