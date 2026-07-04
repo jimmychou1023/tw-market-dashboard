@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111418">
+<link rel="manifest" href="manifest.webmanifest">
+<title>台股訊號</title>
+<style>
+  :root{ --up:#e34b4b; --dn:#2ea043; --mid:#e0a020; --bg:#111418; --card:#1b1f26;
+         --line:#2a2f38; --txt:#e8eaed; --dim:#9aa4af; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+       font-family:-apple-system,"Segoe UI","Noto Sans TC",system-ui,sans-serif;
+       padding:12px 12px calc(24px + env(safe-area-inset-bottom));max-width:640px;margin:0 auto}
+  h1{font-size:1.15rem;margin:.2rem 0 .1rem}
+  .sub{color:var(--dim);font-size:.72rem;margin-bottom:.6rem}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin:10px 0}
+  .banner{border-radius:12px;padding:10px 12px;margin:8px 0;font-size:.85rem;line-height:1.4}
+  .b-ok{background:#12331f;border:1px solid #1d5b33}
+  .b-warn{background:#3a2e10;border:1px solid #6b5316}
+  .b-crit{background:#3a1414;border:1px solid #6b1d1d}
+  .b-info{background:#122a3a;border:1px solid #1d4a6b}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .expwrap{background:#0e1116;border-radius:10px;height:26px;overflow:hidden;margin-top:8px}
+  .expbar{height:100%;border-radius:10px 0 0 10px;transition:width .4s}
+  .big{font-size:2rem;font-weight:700;line-height:1}
+  .tag{font-size:.72rem;color:var(--dim)}
+  table{width:100%;border-collapse:collapse;font-size:.82rem}
+  th,td{padding:7px 4px;text-align:right;border-bottom:1px solid var(--line)}
+  th:nth-child(2),td:nth-child(2){text-align:left}
+  th{color:var(--dim);font-weight:500;font-size:.72rem}
+  .pill{display:inline-block;min-width:2.6em;text-align:center;border-radius:6px;padding:1px 5px;font-size:.72rem}
+  .qbar{height:6px;border-radius:3px;background:#0e1116;overflow:hidden;margin-top:3px}
+  .qfill{height:100%;background:#3d7bd6}
+  input,button{font:inherit}
+  #q{width:100%;padding:9px;border-radius:9px;border:1px solid var(--line);background:#0e1116;color:var(--txt);margin-bottom:8px}
+  .btn{background:#2a2f38;color:var(--txt);border:1px solid var(--line);border-radius:9px;padding:8px 12px}
+  .foot{color:var(--dim);font-size:.68rem;margin-top:16px;line-height:1.5}
+  .muted{color:var(--dim)}
+</style>
+</head>
+<body>
+  <div class="row">
+    <h1>📈 台股系統化訊號</h1>
+    <button class="btn" onclick="load()">↻</button>
+  </div>
+  <div class="sub" id="meta">載入中…</div>
+
+  <div id="health"></div>
+
+  <div class="card">
+    <div class="row"><b>Regime 曝險</b><span class="tag" id="regimeTag"></span></div>
+    <div class="row" style="margin-top:6px">
+      <span class="big" id="expPct">–</span>
+      <span class="tag" id="expNote"></span>
+    </div>
+    <div class="expwrap"><div class="expbar" id="expBar" style="width:0%"></div></div>
+  </div>
+
+  <div class="card">
+    <div class="row"><b>候選名單</b><span class="tag" id="poolTag"></span></div>
+    <div style="margin-top:8px">
+      <input id="q" placeholder="搜代號/名稱，或看 top-N">
+      <div class="row" style="margin-bottom:6px">
+        <span class="tag">顯示</span>
+        <span>
+          <button class="btn" onclick="setN(15)">15</button>
+          <button class="btn" onclick="setN(30)">30</button>
+          <button class="btn" onclick="setN(50)">50</button>
+        </span>
+      </div>
+    </div>
+    <table><thead><tr><th>#</th><th>代號/名稱</th><th>綜合</th><th>動量</th><th>品質</th><th>低波</th></tr></thead>
+    <tbody id="rows"></tbody></table>
+  </div>
+
+  <div class="foot">
+    🔴 紅=漲 🟢 綠=跌（台股慣例）。此頁為<b>定案模型當前訊號（唯讀）</b>，非 test 績效；不含個人持倉/損益。<br>
+    資料由本機每日排程推送；離線時顯示最後一次成功載入的內容。
+  </div>
+
+<script>
+let DATA=null, N=30;
+const $=id=>document.getElementById(id);
+const bust=()=>'?t='+Date.now();
+
+function pill(v){ // 分位 0..1 → 進度條格
+  if(v==null||isNaN(v)) return '<span class="muted">–</span>';
+  const p=Math.round(v*100);
+  return p+'<div class="qbar"><div class="qfill" style="width:'+p+'%"></div></div>';
+}
+function setN(n){N=n; $('q').value=''; render();}
+
+function renderHealth(h){
+  if(!h){$('health').innerHTML='';return;}
+  const map={OK:'b-ok',WARN:'b-warn',CRIT:'b-crit',INFO:'b-info'};
+  const bad=(h.checks||[]).filter(c=>c.status==='WARN'||c.status==='CRIT');
+  let html='<div class="banner '+(map[h.overall]||'b-info')+'"><b>資料健康：'+h.overall+'</b> · 最新交易日 '+(h.last_trading_day||'?')+'</div>';
+  bad.forEach(c=>{ html+='<div class="banner '+(map[c.status]||'b-warn')+'">⚠️ <b>'+c.name+'</b> — '+(c.detail||'')+'</div>'; });
+  $('health').innerHTML=html;
+}
+
+function renderRegime(E,date){
+  const pct=Math.round(E*100);
+  let tone,color;
+  if(pct>=70){tone='順風 risk-on';color='var(--up)';}
+  else if(pct>=40){tone='中性';color='var(--mid)';}
+  else{tone='防守 risk-off';color='var(--dn)';}
+  $('expPct').textContent=pct+'%';
+  $('expBar').style.width=pct+'%'; $('expBar').style.background=color;
+  $('regimeTag').textContent=tone;
+  $('expNote').textContent='候選等權 × '+pct+'%（資料日 '+date+'）';
+}
+
+function render(){
+  if(!DATA) return;
+  const pool=DATA.stocks.filter(s=>s.rank!=null).sort((a,b)=>a.rank-b.rank);
+  $('poolTag').textContent='合格池 '+pool.length+' 檔';
+  const q=$('q').value.trim();
+  let list;
+  if(q){ list=pool.filter(s=>s.stock_id.includes(q)||(s.name||'').includes(q)).slice(0,60); }
+  else{ list=pool.slice(0,N); }
+  $('rows').innerHTML=list.map(s=>
+    '<tr><td>'+s.rank+'</td><td><b>'+s.stock_id+'</b> '+(s.name||'')+'</td>'+
+    '<td>'+pill(s.comp)+'</td><td>'+pill(s.mom)+'</td><td>'+pill(s.qual)+'</td><td>'+pill(s.vol)+'</td></tr>'
+  ).join('') || '<tr><td colspan="6" class="muted">查無</td></tr>';
+}
+
+async function load(){
+  try{
+    const [d,h]=await Promise.all([
+      fetch('data/dashboard.json'+bust()).then(r=>r.json()),
+      fetch('data/health.json'+bust()).then(r=>r.ok?r.json():null).catch(()=>null)
+    ]);
+    DATA=d;
+    try{localStorage.setItem('snap',JSON.stringify({d,h,at:Date.now()}));}catch(e){}
+    apply(d,h,false);
+  }catch(e){
+    const cached=localStorage.getItem('snap');
+    if(cached){const {d,h,at}=JSON.parse(cached); DATA=d; apply(d,h,true,at);}
+    else $('meta').textContent='載入失敗，且無離線快取';
+  }
+}
+function apply(d,h,offline,at){
+  renderHealth(h); renderRegime(d.E_now,d.data_date); render();
+  $('meta').textContent='資料日 '+d.data_date+' · 產生 '+(d.generated_at||'')+
+    (offline?' · ⚠離線快取('+new Date(at).toLocaleString()+')':'');
+}
+load();
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{});}
+</script>
+</body>
+</html>

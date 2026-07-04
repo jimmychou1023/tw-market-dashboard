@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-07-03T20:09:11",
+  "last_trading_day": "2026-07-03",
+  "overall": "WARN",
+  "checks": [
+    {
+      "name": "finmind_token",
+      "status": "WARN",
+      "detail": "到期 2026-07-10（剩 6.8 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
+      "expires": "2026-07-10T14:31:40",
+      "days_left": 6.8
+    },
+    {
+      "name": "fin_statement",
+      "status": "OK",
+      "detail": "最新季 2026-03-31（應公告最新季 2026-03-31，已齊）"
+    },
+    {
+      "name": "cbc_rate",
+      "status": "INFO",
+      "detail": "央行 2026-06 理監事會期間 → 確認政策利率有無調整（cbc_rate 最新=2024-03-22）；有變動告知即一行插入"
+    },
+    {
+      "name": "taiex_index",
+      "status": "OK",
+      "detail": "最新 2026-07-03｜落後 0 交易日｜regime 趨勢核心",
+      "max_date": "2026-07-03",
+      "lag_td": 0
+    },
+    {
+      "name": "us_vix",
+      "status": "OK",
+      "detail": "最新 2026-07-03｜落後 0 交易日｜regime VIX 票（定案唯一情緒輸入）",
+      "max_date": "2026-07-03",
+      "lag_td": 0
+    },
+    {
+      "name": "daily_quote",
+      "status": "OK",
+      "detail": "最新 2026-07-03｜落後 0 交易日｜選股/記分卡 底層價量",
+      "max_date": "2026-07-03",
+      "lag_td": 0
+    },
+    {
+      "name": "daily_quote_adj",
+      "status": "OK",
+      "detail": "最新 2026-07-03｜落後 0 交易日｜還原報酬（選股）",
+      "max_date": "2026-07-03",
+      "lag_td": 0
+    },
+    {
+      "name": "inst_net_stock",
+      "status": "OK",
+      "detail": "最新 2026-07-03｜落後 0 交易日｜記分卡 外資淨買",
+      "max_date": "2026-07-03",
+      "lag_td": 0
+    },
+    {
+      "name": "foreign_holding",
+      "status": "OK",
+      "detail": "最新 2026-07-02｜落後 1 交易日｜記分卡 外資持股比率",
+      "max_date": "2026-07-02",
+      "lag_td": 1
+    }
+  ]
+}

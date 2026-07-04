@@ -1,0 +1,13 @@
+{
+  "name": "台股系統化訊號",
+  "short_name": "台股訊號",
+  "description": "定案模型當前訊號（唯讀）:曝險、候選名單、資料新鮮度",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#111418",
+  "theme_color": "#111418",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
