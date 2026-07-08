@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-08T19:30:56",
+  "generated_at": "2026-07-08T20:07:22",
   "last_trading_day": "2026-07-08",
-  "overall": "CRIT",
+  "overall": "WARN",
   "checks": [
     {
       "name": "finmind_token",
-      "status": "CRIT",
-      "detail": "到期 2026-07-10（剩 1.8 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
-      "expires": "2026-07-10T14:31:40",
-      "days_left": 1.8
+      "status": "WARN",
+      "detail": "到期 2026-07-15（剩 7.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
+      "expires": "2026-07-15T19:38:19",
+      "days_left": 7.0
     },
     {
       "name": "fin_statement",
