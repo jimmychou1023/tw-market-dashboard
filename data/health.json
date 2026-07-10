@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-08T20:07:22",
-  "last_trading_day": "2026-07-08",
+  "generated_at": "2026-07-10T20:10:27",
+  "last_trading_day": "2026-07-09",
   "overall": "WARN",
   "checks": [
     {
       "name": "finmind_token",
       "status": "WARN",
-      "detail": "到期 2026-07-15（剩 7.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
+      "detail": "到期 2026-07-15（剩 5.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
       "expires": "2026-07-15T19:38:19",
-      "days_left": 7.0
+      "days_left": 5.0
     },
     {
       "name": "fin_statement",
@@ -23,44 +23,44 @@
     {
       "name": "taiex_index",
       "status": "OK",
-      "detail": "最新 2026-07-08｜落後 0 交易日｜regime 趨勢核心",
-      "max_date": "2026-07-08",
+      "detail": "最新 2026-07-09｜落後 0 交易日｜regime 趨勢核心",
+      "max_date": "2026-07-09",
       "lag_td": 0
     },
     {
       "name": "us_vix",
       "status": "OK",
-      "detail": "最新 2026-07-08｜落後 0 交易日｜regime VIX 票（定案唯一情緒輸入）",
-      "max_date": "2026-07-08",
+      "detail": "最新 2026-07-10｜落後 0 交易日｜regime VIX 票（定案唯一情緒輸入）",
+      "max_date": "2026-07-10",
       "lag_td": 0
     },
     {
       "name": "daily_quote",
       "status": "OK",
-      "detail": "最新 2026-07-08｜落後 0 交易日｜選股/記分卡 底層價量",
-      "max_date": "2026-07-08",
+      "detail": "最新 2026-07-09｜落後 0 交易日｜選股/記分卡 底層價量",
+      "max_date": "2026-07-09",
       "lag_td": 0
     },
     {
       "name": "daily_quote_adj",
       "status": "OK",
-      "detail": "最新 2026-07-08｜落後 0 交易日｜還原報酬（選股）",
-      "max_date": "2026-07-08",
+      "detail": "最新 2026-07-09｜落後 0 交易日｜還原報酬（選股）",
+      "max_date": "2026-07-09",
       "lag_td": 0
     },
     {
       "name": "inst_net_stock",
       "status": "OK",
-      "detail": "最新 2026-07-08｜落後 0 交易日｜記分卡 外資淨買",
-      "max_date": "2026-07-08",
+      "detail": "最新 2026-07-09｜落後 0 交易日｜記分卡 外資淨買",
+      "max_date": "2026-07-09",
       "lag_td": 0
     },
     {
       "name": "foreign_holding",
       "status": "OK",
-      "detail": "最新 2026-07-07｜落後 1 交易日｜記分卡 外資持股比率",
-      "max_date": "2026-07-07",
-      "lag_td": 1
+      "detail": "最新 2026-07-09｜落後 0 交易日｜記分卡 外資持股比率",
+      "max_date": "2026-07-09",
+      "lag_td": 0
     }
   ]
 }
