@@ -1,24 +1,19 @@
 {
-  "generated_at": "2026-07-10T20:10:27",
+  "generated_at": "2026-07-11T20:08:22",
   "last_trading_day": "2026-07-09",
   "overall": "WARN",
   "checks": [
     {
       "name": "finmind_token",
       "status": "WARN",
-      "detail": "到期 2026-07-15（剩 5.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
+      "detail": "到期 2026-07-15（剩 4.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
       "expires": "2026-07-15T19:38:19",
-      "days_left": 5.0
+      "days_left": 4.0
     },
     {
       "name": "fin_statement",
       "status": "OK",
       "detail": "最新季 2026-03-31（應公告最新季 2026-03-31，已齊）"
-    },
-    {
-      "name": "cbc_rate",
-      "status": "INFO",
-      "detail": "央行 2026-06 理監事會期間 → 確認政策利率有無調整（cbc_rate 最新=2024-03-22）；有變動告知即一行插入"
     },
     {
       "name": "taiex_index",
