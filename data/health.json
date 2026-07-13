@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-13T18:42:47",
-  "last_trading_day": "2026-07-09",
+  "generated_at": "2026-07-13T20:08:22",
+  "last_trading_day": "2026-07-13",
   "overall": "CRIT",
   "checks": [
     {
@@ -18,8 +18,8 @@
     {
       "name": "taiex_index",
       "status": "OK",
-      "detail": "最新 2026-07-09｜落後 0 交易日｜regime 趨勢核心",
-      "max_date": "2026-07-09",
+      "detail": "最新 2026-07-13｜落後 0 交易日｜regime 趨勢核心",
+      "max_date": "2026-07-13",
       "lag_td": 0
     },
     {
@@ -32,30 +32,30 @@
     {
       "name": "daily_quote",
       "status": "OK",
-      "detail": "最新 2026-07-09｜落後 0 交易日｜選股/記分卡 底層價量",
-      "max_date": "2026-07-09",
+      "detail": "最新 2026-07-13｜落後 0 交易日｜選股/記分卡 底層價量",
+      "max_date": "2026-07-13",
       "lag_td": 0
     },
     {
       "name": "daily_quote_adj",
       "status": "OK",
-      "detail": "最新 2026-07-09｜落後 0 交易日｜還原報酬（選股）",
-      "max_date": "2026-07-09",
+      "detail": "最新 2026-07-13｜落後 0 交易日｜還原報酬（選股）",
+      "max_date": "2026-07-13",
       "lag_td": 0
     },
     {
       "name": "inst_net_stock",
       "status": "OK",
-      "detail": "最新 2026-07-09｜落後 0 交易日｜記分卡 外資淨買",
-      "max_date": "2026-07-09",
+      "detail": "最新 2026-07-13｜落後 0 交易日｜記分卡 外資淨買",
+      "max_date": "2026-07-13",
       "lag_td": 0
     },
     {
       "name": "foreign_holding",
       "status": "OK",
-      "detail": "最新 2026-07-09｜落後 0 交易日｜記分卡 外資持股比率",
+      "detail": "最新 2026-07-09｜落後 1 交易日｜記分卡 外資持股比率",
       "max_date": "2026-07-09",
-      "lag_td": 0
+      "lag_td": 1
     }
   ]
 }
