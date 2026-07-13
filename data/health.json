@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-11T20:08:22",
+  "generated_at": "2026-07-13T18:42:47",
   "last_trading_day": "2026-07-09",
-  "overall": "WARN",
+  "overall": "CRIT",
   "checks": [
     {
       "name": "finmind_token",
-      "status": "WARN",
-      "detail": "到期 2026-07-15（剩 4.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
+      "status": "CRIT",
+      "detail": "到期 2026-07-15（剩 2.0 天）；請盡快換 token（fin_statement 品質閘門/fx 依賴）",
       "expires": "2026-07-15T19:38:19",
-      "days_left": 4.0
+      "days_left": 2.0
     },
     {
       "name": "fin_statement",
@@ -25,8 +25,8 @@
     {
       "name": "us_vix",
       "status": "OK",
-      "detail": "最新 2026-07-10｜落後 0 交易日｜regime VIX 票（定案唯一情緒輸入）",
-      "max_date": "2026-07-10",
+      "detail": "最新 2026-07-13｜落後 0 交易日｜regime VIX 票（定案唯一情緒輸入）",
+      "max_date": "2026-07-13",
       "lag_td": 0
     },
     {
