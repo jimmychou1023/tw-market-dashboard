@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-13T20:10:37",
+  "generated_at": "2026-07-14T22:41:52",
   "data_date": "2026-07-13",
-  "E_now": 0.75,
+  "E_now": 0.25,
   "vix_missing": false,
-  "vix_last_date": "2026-07-13",
+  "vix_last_date": "2026-07-14",
   "n_elig": 1040,
   "n_qual": 1028,
   "pool_n": 548,
@@ -736,7 +736,7 @@
     },
     {
       "stock_id": "1341",
-      "name": "",
+      "name": "富林-KY",
       "elig": false,
       "quality": true,
       "comp": 0.5416,
@@ -3145,7 +3145,7 @@
     },
     {
       "stock_id": "2035",
-      "name": "唐榮",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -3651,7 +3651,7 @@
     },
     {
       "stock_id": "2254",
-      "name": "",
+      "name": "巨鎧精密-創",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -7336,7 +7336,7 @@
     },
     {
       "stock_id": "2924",
-      "name": "宏太-KY",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -7413,7 +7413,7 @@
     },
     {
       "stock_id": "2941",
-      "name": "",
+      "name": "米斯特",
       "elig": false,
       "quality": true,
       "comp": 0.3238,
@@ -7446,7 +7446,7 @@
     },
     {
       "stock_id": "2948",
-      "name": "",
+      "name": "寶陞",
       "elig": false,
       "quality": true,
       "comp": 0.8355,
@@ -8172,7 +8172,7 @@
     },
     {
       "stock_id": "3067",
-      "name": "",
+      "name": "全域",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -8425,7 +8425,7 @@
     },
     {
       "stock_id": "3115",
-      "name": "",
+      "name": "富榮綱",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -10933,7 +10933,7 @@
     },
     {
       "stock_id": "3629",
-      "name": "地心引力",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -12055,7 +12055,7 @@
     },
     {
       "stock_id": "4183",
-      "name": "福永生技",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -12528,7 +12528,7 @@
     },
     {
       "stock_id": "4530",
-      "name": "宏易",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.5474,
@@ -12979,7 +12979,7 @@
     },
     {
       "stock_id": "4609",
-      "name": "",
+      "name": "唐鋒",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -13133,7 +13133,7 @@
     },
     {
       "stock_id": "4728",
-      "name": "雙美",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.4828,
@@ -14189,7 +14189,7 @@
     },
     {
       "stock_id": "5205",
-      "name": "中茂",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -15586,7 +15586,7 @@
     },
     {
       "stock_id": "5520",
-      "name": "力泰",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.5493,
@@ -16004,7 +16004,7 @@
     },
     {
       "stock_id": "5906",
-      "name": "台南-KY",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.5934,
@@ -17599,7 +17599,7 @@
     },
     {
       "stock_id": "6240",
-      "name": "",
+      "name": "松崗",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -18688,7 +18688,7 @@
     },
     {
       "stock_id": "6512",
-      "name": "啟發電",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -19535,7 +19535,7 @@
     },
     {
       "stock_id": "6661",
-      "name": "威健生技",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -20118,7 +20118,7 @@
     },
     {
       "stock_id": "6762",
-      "name": "達亞",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -20140,7 +20140,7 @@
     },
     {
       "stock_id": "6767",
-      "name": "",
+      "name": "台微醫",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -20536,7 +20536,7 @@
     },
     {
       "stock_id": "6855",
-      "name": "",
+      "name": "數泓科",
       "elig": false,
       "quality": true,
       "comp": 0.4505,
@@ -21350,7 +21350,7 @@
     },
     {
       "stock_id": "7584",
-      "name": "樂意",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -21504,7 +21504,7 @@
     },
     {
       "stock_id": "7716",
-      "name": "",
+      "name": "昱臺國際",
       "elig": false,
       "quality": true,
       "comp": 0.562,
@@ -21526,7 +21526,7 @@
     },
     {
       "stock_id": "7718",
-      "name": "友鋮",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
