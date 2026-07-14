@@ -152,17 +152,6 @@
       "vol": null
     },
     {
-      "stock_id": "1212",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "1213",
       "name": "大飲",
       "elig": false,
@@ -482,17 +471,6 @@
       "vol": null
     },
     {
-      "stock_id": "1306",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "1307",
       "name": "三芳",
       "elig": true,
@@ -529,17 +507,6 @@
       "stock_id": "1310",
       "name": "台苯",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1311",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -686,7 +653,7 @@
       "quality": true,
       "comp": 0.3405,
       "rank": null,
-      "mom": 0.077,
+      "mom": 0.078,
       "qual": null,
       "vol": 0.604
     },
@@ -736,7 +703,7 @@
     },
     {
       "stock_id": "1341",
-      "name": "富林-KY",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.5416,
@@ -1054,17 +1021,6 @@
       "vol": null
     },
     {
-      "stock_id": "1450",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "1451",
       "name": "年興",
       "elig": false,
@@ -1155,17 +1111,6 @@
     {
       "stock_id": "1460",
       "name": "宏遠",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1462",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -1486,17 +1431,6 @@
       "stock_id": "1522",
       "name": "堤維西",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1523",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -1879,17 +1813,6 @@
       "vol": null
     },
     {
-      "stock_id": "1592",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "1593",
       "name": "祺驊",
       "elig": false,
@@ -1945,17 +1868,6 @@
       "vol": null
     },
     {
-      "stock_id": "1601",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "1603",
       "name": "華電",
       "elig": false,
@@ -1981,17 +1893,6 @@
       "stock_id": "1605",
       "name": "華新",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1606",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -2145,17 +2046,6 @@
     {
       "stock_id": "1702",
       "name": "南僑",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1704",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -2377,17 +2267,6 @@
       "stock_id": "1727",
       "name": "中華化",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1729",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -2627,17 +2506,6 @@
       "vol": null
     },
     {
-      "stock_id": "1787",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "1788",
       "name": "杏昌",
       "elig": false,
@@ -2717,17 +2585,6 @@
     {
       "stock_id": "1806",
       "name": "冠軍",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "1807",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -3651,7 +3508,7 @@
     },
     {
       "stock_id": "2254",
-      "name": "巨鎧精密-創",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -3762,17 +3619,6 @@
     {
       "stock_id": "2314",
       "name": "台揚",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2315",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -3936,39 +3782,6 @@
       "vol": null
     },
     {
-      "stock_id": "2333",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2335",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2336",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2337",
       "name": "旺宏",
       "elig": true,
@@ -4002,31 +3815,9 @@
       "vol": null
     },
     {
-      "stock_id": "2341",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2342",
       "name": "茂矽",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2343",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -4082,17 +3873,6 @@
       "stock_id": "2349",
       "name": "錸德",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2350",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -4170,17 +3950,6 @@
       "stock_id": "2357",
       "name": "華碩",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2358",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -4310,17 +4079,6 @@
       "vol": null
     },
     {
-      "stock_id": "2370",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2371",
       "name": "大同",
       "elig": true,
@@ -4420,17 +4178,6 @@
       "vol": null
     },
     {
-      "stock_id": "2381",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2382",
       "name": "廣達",
       "elig": true,
@@ -4445,17 +4192,6 @@
       "stock_id": "2383",
       "name": "台光電",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2384",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -4510,17 +4246,6 @@
     {
       "stock_id": "2390",
       "name": "云辰",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2391",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -4629,17 +4354,6 @@
       "vol": null
     },
     {
-      "stock_id": "2403",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2404",
       "name": "漢唐",
       "elig": true,
@@ -4673,17 +4387,6 @@
       "vol": null
     },
     {
-      "stock_id": "2407",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2408",
       "name": "南亞科",
       "elig": true,
@@ -4698,28 +4401,6 @@
       "stock_id": "2409",
       "name": "友達",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2410",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2411",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -4772,31 +4453,9 @@
       "vol": null
     },
     {
-      "stock_id": "2416",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2417",
       "name": "圓剛",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2418",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -4981,17 +4640,6 @@
       "vol": null
     },
     {
-      "stock_id": "2435",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2436",
       "name": "偉詮電",
       "elig": true,
@@ -5082,39 +4730,6 @@
     {
       "stock_id": "2444",
       "name": "兆勁",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2446",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2447",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2448",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -5344,28 +4959,6 @@
       "vol": null
     },
     {
-      "stock_id": "2469",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2470",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2471",
       "name": "資通",
       "elig": false,
@@ -5402,17 +4995,6 @@
       "stock_id": "2474",
       "name": "可成",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2475",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -5542,17 +5124,6 @@
       "vol": null
     },
     {
-      "stock_id": "2487",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2488",
       "name": "漢平",
       "elig": false,
@@ -5655,17 +5226,6 @@
       "stock_id": "2498",
       "name": "宏達電",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2499",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -5784,41 +5344,8 @@
       "vol": null
     },
     {
-      "stock_id": "2523",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2524",
       "name": "京城",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2525",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2526",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -6697,40 +6224,7 @@
       "vol": null
     },
     {
-      "stock_id": "2807",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2808",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2809",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2811",
       "name": "",
       "elig": false,
       "quality": false,
@@ -6774,75 +6268,9 @@
       "vol": null
     },
     {
-      "stock_id": "2822",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2823",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2825",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2827",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2831",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2832",
       "name": "台產",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2833",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -6873,17 +6301,6 @@
       "vol": null
     },
     {
-      "stock_id": "2837",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2838",
       "name": "聯邦銀",
       "elig": true,
@@ -6895,31 +6312,9 @@
       "vol": null
     },
     {
-      "stock_id": "2841",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "2845",
       "name": "遠東銀",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2847",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -6986,17 +6381,6 @@
       "stock_id": "2855",
       "name": "統一證",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "2856",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -7242,7 +6626,7 @@
       "quality": true,
       "comp": 0.8249,
       "rank": null,
-      "mom": 0.546,
+      "mom": 0.538,
       "qual": 0.991,
       "vol": 0.938
     },
@@ -7413,7 +6797,7 @@
     },
     {
       "stock_id": "2941",
-      "name": "米斯特",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.3238,
@@ -7568,17 +6952,6 @@
     {
       "stock_id": "3011",
       "name": "今皓",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3012",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -8116,31 +7489,9 @@
       "vol": null
     },
     {
-      "stock_id": "3061",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3062",
       "name": "建漢",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3063",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -8172,28 +7523,6 @@
     },
     {
       "stock_id": "3067",
-      "name": "全域",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3068",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3069",
       "name": "",
       "elig": false,
       "quality": false,
@@ -8303,17 +7632,6 @@
       "vol": null
     },
     {
-      "stock_id": "3087",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3088",
       "name": "艾訊",
       "elig": true,
@@ -8391,17 +7709,6 @@
       "vol": null
     },
     {
-      "stock_id": "3099",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3105",
       "name": "穩懋",
       "elig": true,
@@ -8425,7 +7732,7 @@
     },
     {
       "stock_id": "3115",
-      "name": "富榮綱",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -8448,17 +7755,6 @@
     {
       "stock_id": "3122",
       "name": "笙泉",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3126",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -9073,17 +8369,6 @@
       "vol": null
     },
     {
-      "stock_id": "3271",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3272",
       "name": "東碩",
       "elig": false,
@@ -9164,17 +8449,6 @@
       "stock_id": "3290",
       "name": "東浦",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3291",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -9328,17 +8602,6 @@
     {
       "stock_id": "3313",
       "name": "斐成",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3315",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -9535,28 +8798,6 @@
       "vol": null
     },
     {
-      "stock_id": "3367",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3369",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3372",
       "name": "典範",
       "elig": true,
@@ -9615,17 +8856,6 @@
       "stock_id": "3380",
       "name": "明泰",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3383",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -9747,17 +8977,6 @@
       "stock_id": "3430",
       "name": "奇鈦科",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3431",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -9922,17 +9141,6 @@
     {
       "stock_id": "3467",
       "name": "台灣精材",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3474",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -10129,17 +9337,6 @@
       "vol": null
     },
     {
-      "stock_id": "3514",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3515",
       "name": "華擎",
       "elig": true,
@@ -10165,17 +9362,6 @@
       "stock_id": "3518",
       "name": "柏騰",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3519",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -10514,39 +9700,6 @@
       "vol": null
     },
     {
-      "stock_id": "3559",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3561",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3562",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3563",
       "name": "牧德",
       "elig": true,
@@ -10778,28 +9931,6 @@
       "vol": null
     },
     {
-      "stock_id": "3598",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3599",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3605",
       "name": "宏致",
       "elig": true,
@@ -10933,7 +10064,7 @@
     },
     {
       "stock_id": "3629",
-      "name": "",
+      "name": "地心引力",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -10967,28 +10098,6 @@
     {
       "stock_id": "3632",
       "name": "研勤",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3638",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3642",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -11185,17 +10294,6 @@
       "vol": null
     },
     {
-      "stock_id": "3682",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "3684",
       "name": "榮昌",
       "elig": false,
@@ -11276,28 +10374,6 @@
       "stock_id": "3694",
       "name": "海華",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3697",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "3698",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -11495,17 +10571,6 @@
     {
       "stock_id": "4102",
       "name": "永日",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "4103",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -11779,31 +10844,9 @@
       "vol": null
     },
     {
-      "stock_id": "4141",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "4142",
       "name": "國光生",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "4144",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -12043,17 +11086,6 @@
       "vol": null
     },
     {
-      "stock_id": "4180",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "4183",
       "name": "",
       "elig": false,
@@ -12219,17 +11251,6 @@
       "vol": null
     },
     {
-      "stock_id": "4408",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "4413",
       "name": "飛寶企業",
       "elig": false,
@@ -12243,17 +11264,6 @@
     {
       "stock_id": "4414",
       "name": "如興",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "4415",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -12309,17 +11319,6 @@
     {
       "stock_id": "4426",
       "name": "利勤",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "4429",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -12498,7 +11497,7 @@
       "name": "方土霖",
       "elig": false,
       "quality": true,
-      "comp": 0.7008,
+      "comp": 0.7037,
       "rank": null,
       "mom": 0.364,
       "qual": 0.831,
@@ -12979,7 +11978,7 @@
     },
     {
       "stock_id": "4609",
-      "name": "唐鋒",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -12991,17 +11990,6 @@
     {
       "stock_id": "4702",
       "name": "中美實",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "4703",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -13110,17 +12098,6 @@
       "vol": null
     },
     {
-      "stock_id": "4725",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "4726",
       "name": "永昕",
       "elig": false,
@@ -13133,7 +12110,7 @@
     },
     {
       "stock_id": "4728",
-      "name": "",
+      "name": "雙美",
       "elig": false,
       "quality": true,
       "comp": 0.4828,
@@ -13319,17 +12296,6 @@
       "vol": null
     },
     {
-      "stock_id": "4762",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "4763",
       "name": "材料*-KY",
       "elig": true,
@@ -13455,9 +12421,9 @@
       "name": "日成-KY",
       "elig": false,
       "quality": true,
-      "comp": 0.4431,
+      "comp": 0.4425,
       "rank": null,
-      "mom": 0.894,
+      "mom": 0.892,
       "qual": 0.361,
       "vol": 0.075
     },
@@ -14419,17 +13385,6 @@
       "vol": null
     },
     {
-      "stock_id": "5255",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "5258",
       "name": "虹堡",
       "elig": true,
@@ -14826,17 +13781,6 @@
       "vol": null
     },
     {
-      "stock_id": "5326",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "5328",
       "name": "華容",
       "elig": true,
@@ -14881,17 +13825,6 @@
       "vol": null
     },
     {
-      "stock_id": "5346",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "5347",
       "name": "世界",
       "elig": true,
@@ -14905,17 +13838,6 @@
     {
       "stock_id": "5348",
       "name": "正能量智能",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "5349",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -15013,17 +13935,6 @@
       "vol": null
     },
     {
-      "stock_id": "5384",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "5386",
       "name": "青雲",
       "elig": true,
@@ -15068,24 +13979,13 @@
       "vol": null
     },
     {
-      "stock_id": "5395",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "5398",
       "name": "慕康生醫",
       "elig": false,
       "quality": true,
       "comp": 0.3682,
       "rank": null,
-      "mom": 0.094,
+      "mom": 0.096,
       "qual": null,
       "vol": 0.642
     },
@@ -15440,28 +14340,6 @@
       "mom": 0.531,
       "qual": 0.55,
       "vol": 0.607
-    },
-    {
-      "stock_id": "5491",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "5492",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
     },
     {
       "stock_id": "5493",
@@ -16025,42 +14903,9 @@
       "vol": null
     },
     {
-      "stock_id": "6004",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6005",
       "name": "群益證",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6008",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6012",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -16104,17 +14949,6 @@
     {
       "stock_id": "6021",
       "name": "美好證",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6022",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -16245,17 +15079,6 @@
       "vol": null
     },
     {
-      "stock_id": "6110",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6111",
       "name": "光聚晶電",
       "elig": false,
@@ -16335,17 +15158,6 @@
     {
       "stock_id": "6118",
       "name": "建達",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6119",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -16520,17 +15332,6 @@
       "vol": null
     },
     {
-      "stock_id": "6135",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6136",
       "name": "富爾特",
       "elig": false,
@@ -16610,17 +15411,6 @@
     {
       "stock_id": "6144",
       "name": "得利影",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6145",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -16753,17 +15543,6 @@
     {
       "stock_id": "6158",
       "name": "禾昌",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6159",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -17279,17 +16058,6 @@
       "vol": null
     },
     {
-      "stock_id": "6211",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6212",
       "name": "理銘",
       "elig": false,
@@ -17576,17 +16344,6 @@
       "vol": null
     },
     {
-      "stock_id": "6238",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6239",
       "name": "力成",
       "elig": true,
@@ -17599,7 +16356,7 @@
     },
     {
       "stock_id": "6240",
-      "name": "松崗",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -17917,17 +16674,6 @@
       "vol": null
     },
     {
-      "stock_id": "6280",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6281",
       "name": "全國電",
       "elig": false,
@@ -18016,17 +16762,6 @@
       "vol": null
     },
     {
-      "stock_id": "6289",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6290",
       "name": "良維",
       "elig": true,
@@ -18069,39 +16804,6 @@
       "mom": 0.049,
       "qual": 0.77,
       "vol": 0.536
-    },
-    {
-      "stock_id": "6298",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6402",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6404",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
     },
     {
       "stock_id": "6405",
@@ -18206,17 +16908,6 @@
       "stock_id": "6419",
       "name": "京晨科",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6422",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -18588,17 +17279,6 @@
       "vol": null
     },
     {
-      "stock_id": "6497",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6498",
       "name": "久禾光",
       "elig": true,
@@ -18940,17 +17620,6 @@
       "vol": null
     },
     {
-      "stock_id": "6554",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6556",
       "name": "勝品",
       "elig": false,
@@ -19195,17 +17864,6 @@
     {
       "stock_id": "6593",
       "name": "台灣銘板",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "6594",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -19787,17 +18445,6 @@
       "vol": null
     },
     {
-      "stock_id": "6702",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "6703",
       "name": "軒郁",
       "elig": false,
@@ -19901,7 +18548,7 @@
       "name": "輝創",
       "elig": false,
       "quality": true,
-      "comp": 0.4489,
+      "comp": 0.451,
       "rank": null,
       "mom": 0.183,
       "qual": 0.52,
@@ -20140,7 +18787,7 @@
     },
     {
       "stock_id": "6767",
-      "name": "台微醫",
+      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -20536,7 +19183,7 @@
     },
     {
       "stock_id": "6855",
-      "name": "數泓科",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.4505,
@@ -21419,7 +20066,7 @@
       "name": "三商餐飲",
       "elig": false,
       "quality": true,
-      "comp": 0.6014,
+      "comp": 0.6019,
       "rank": null,
       "mom": 0.028,
       "qual": 0.937,
@@ -21504,7 +20151,7 @@
     },
     {
       "stock_id": "7716",
-      "name": "昱臺國際",
+      "name": "",
       "elig": false,
       "quality": true,
       "comp": 0.562,
@@ -22075,17 +20722,6 @@
       "vol": null
     },
     {
-      "stock_id": "8008",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "8011",
       "name": "台通",
       "elig": false,
@@ -22309,17 +20945,6 @@
       "stock_id": "8050",
       "name": "廣積",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "8053",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
@@ -22911,17 +21536,6 @@
       "vol": null
     },
     {
-      "stock_id": "8199",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "8201",
       "name": "無敵",
       "elig": false,
@@ -23351,17 +21965,6 @@
       "vol": null
     },
     {
-      "stock_id": "8418",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "8420",
       "name": "",
       "elig": false,
@@ -23426,17 +22029,6 @@
       "mom": 0.079,
       "qual": 0.705,
       "vol": 0.584
-    },
-    {
-      "stock_id": "8427",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
     },
     {
       "stock_id": "8429",
@@ -23663,10 +22255,10 @@
       "name": "波力-KY",
       "elig": false,
       "quality": true,
-      "comp": 0.3227,
+      "comp": 0.3252,
       "rank": null,
-      "mom": 0.09,
-      "qual": 0.555,
+      "mom": 0.092,
+      "qual": 0.558,
       "vol": null
     },
     {
@@ -23857,17 +22449,6 @@
       "vol": null
     },
     {
-      "stock_id": "8913",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "8916",
       "name": "光隆",
       "elig": false,
@@ -23914,17 +22495,6 @@
     {
       "stock_id": "8924",
       "name": "大田",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "8925",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -24022,17 +22592,6 @@
       "vol": null
     },
     {
-      "stock_id": "8934",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "8935",
       "name": "邦泰",
       "elig": false,
@@ -24121,41 +22680,8 @@
       "vol": 0.05
     },
     {
-      "stock_id": "9101",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "9102",
-      "name": "",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
       "stock_id": "9103",
       "name": "美德醫療-DR",
-      "elig": false,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "9104",
-      "name": "",
       "elig": false,
       "quality": false,
       "comp": null,
@@ -24168,17 +22694,6 @@
       "stock_id": "9105",
       "name": "泰金寶-DR",
       "elig": true,
-      "quality": false,
-      "comp": null,
-      "rank": null,
-      "mom": null,
-      "qual": null,
-      "vol": null
-    },
-    {
-      "stock_id": "9106",
-      "name": "",
-      "elig": false,
       "quality": false,
       "comp": null,
       "rank": null,
