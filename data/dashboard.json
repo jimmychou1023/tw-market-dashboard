@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-18T07:47:11",
+  "generated_at": "2026-07-19T07:47:53",
   "data_date": "2026-07-17",
-  "E_now": 0.75,
+  "E_now": 0.0,
   "vix_missing": false,
-  "vix_last_date": "2026-07-16",
+  "vix_last_date": "2026-07-17",
   "n_elig": 1024,
   "n_qual": 1010,
   "pool_n": 538,
